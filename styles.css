@@ -276,8 +276,12 @@ div[class^="box"] {
 
 /* RESPONSIVE */
 @media (min-width: 700px) {
-	/* Hide attributions at this screen size (It's messing up the layout 😤) */
 
+	/* Hide attributions at this screen size (It's messing up the layout 😤) */
+	.attribution {
+		display: none;
+	}
+	
 	/* CREATIONS */
 	.creations {
 		display: flex;
